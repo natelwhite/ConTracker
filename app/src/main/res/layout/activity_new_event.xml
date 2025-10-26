@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_green"
+    android:orientation="vertical"
+    tools:context=".NewEventActivity"
+    android:gravity="bottom" >
+
+    <EditText
+        android:id="@+id/new_event_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/ConventionTitlePlaceholder"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:width="200sp"/>
+    <EditText
+        android:id="@+id/new_event_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/DateField"
+        android:textSize="20sp"
+        android:inputType="date"
+        android:autofillHints="none"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:width="200sp"/>
+
+    <EditText
+        android:id="@+id/new_event_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/StartTimeField"
+        android:textSize="20sp"
+        android:inputType="time"
+        android:autofillHints="none"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:width="200sp"/>
+    <EditText
+        android:id="@+id/new_event_end"
+        android:inputType="time"
+        android:autofillHints="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/EndTimeField"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:width="200sp"/>
+
+    <EditText
+        android:id="@+id/new_event_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/LocationField"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:width="200sp"
+        android:textAlignment="center"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/new_event_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/DescriptionField"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:width="200sp"
+        android:maxLines="3"
+        android:singleLine="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:onClick="NewEvent"
+        android:width="256dp"
+        android:text="@string/CreateEventBtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="64dp"/>
+
+</LinearLayout>

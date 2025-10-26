@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewUserActivity"
+    android:gravity="center"
+    android:background="@color/blue_green">
+
+    <EditText
+        android:id="@+id/new_user_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:autofillHints=""
+        android:width="200dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/new_user_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:autofillHints=""
+        android:width="200dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+    <CheckBox
+        android:id="@+id/new_user_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/RecieveSMSCheckbox" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SignUpBtn"
+        android:textSize="24sp"
+        android:width="256dp"
+        android:onClick="SignUp"/>
+</LinearLayout>

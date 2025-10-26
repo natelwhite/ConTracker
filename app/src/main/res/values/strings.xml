@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ConTracker</string>
+    <string name="UsernamePlaceholder">Username</string>
+    <string name="PasswordPlaceholder">Password</string>
+    <string name="LoginBtn">Login</string>
+    <string name="OneTimePasswordPlaceholder">______</string>
+    <string name="SubmitOTPBtn">Submit Code</string>
+    <string name="ResendCodeBtn">Resend Code</string>
+    <string name="AddConventionBtn">+</string>
+    <string name="DeleteBtnDescription">Delete</string>
+    <string name="ConventionTitlePlaceholder">Title</string>
+    <string name="SignUpBtn">Sign Up</string>
+    <string name="AddressField">Address</string>
+    <string name="CityField">City</string>
+    <string name="CreateConventionBtn">Create Convention</string>
+    <string name="LocationField">Location</string>
+    <string name="StartTimeField">Start Time</string>
+    <string name="EndTimeField">End Time</string>
+    <string name="DescriptionField">Description</string>
+    <string name="DateField">Date</string>
+    <string name="SaveConventionBtn">Save Convention</string>
+    <string name="SaveEventBtn">Save Event</string>
+    <string name="CreateEventBtn">Create Event</string>
+    <string name="DeleteEventBtn">Delete Event</string>
+    <string name="RecieveSMSCheckbox">Recieve SMS notifications</string>
+    <string name="EditBtnDescription">Edit Convention button</string>
+</resources>

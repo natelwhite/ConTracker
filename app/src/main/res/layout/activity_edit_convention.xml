@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_green"
+    android:orientation="vertical"
+    tools:context=".EditConventionActivity"
+    android:gravity="bottom" >
+
+    <EditText
+        android:id="@+id/edit_convention_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"
+        android:width="200sp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_convention_date_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:width="200sp"/>
+
+    <EditText
+        android:id="@+id/edit_convention_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:width="200sp"
+        android:textAlignment="center"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edit_convention_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:width="200sp"
+        android:textAlignment="center"
+        android:singleLine="true" />
+
+    <Spinner
+        android:id="@+id/edit_convention_state_spinner"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:dropDownWidth="200sp"
+        android:minWidth="200sp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:onClick="SaveConvention"
+        android:width="256dp"
+        android:text="@string/SaveConventionBtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="64dp"/>
+
+</LinearLayout>
